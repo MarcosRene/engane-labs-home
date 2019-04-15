@@ -229,9 +229,7 @@ hr{
 }
 
 .footer a{
-	text-decoration: none;
-	color: #ffffff;
-	text-transform: uppercase;
+	
 }
 
 .cnt-footer{
@@ -243,7 +241,13 @@ hr{
 	float: right;
 }
 
-.content-footer strong{
+.content strong{
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+strong a{
+	text-decoration: none;
 	color: #ffffff;
 	text-transform: uppercase;
 }
@@ -254,6 +258,10 @@ hr{
 
 .content-footer ul li{
 	line-height: 20px;
+}
+
+.content-footer ul li a {
+	text-decoration: none;
 	color: #90989f;
 }
 
